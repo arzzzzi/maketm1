@@ -5,6 +5,18 @@
     color: black;
 }
 
+.outer {
+    width: 1440px;
+}
+
+.inner {
+    margin: 0 auto;
+}
+
+.desktop {
+    padding: 21px 810px 17px 121px;
+}
+
 .header-text {
     font-family: Roboto;
     font-style: normal;
@@ -13,9 +25,24 @@
     line-height: 115%;
 }
 
+.onlinecourse {
+    display: flex;
+    margin: 96px 46px 0 0;
+}
+
+.watches {
+    display: flex;
+    margin: 96px 46px 0 0;
+}
+
+.calendar {
+    display: flex;
+    margin: 96px 46px 0 0;
+}
+
 .courseinfo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .firstline-title {
@@ -37,6 +64,7 @@
 .firstline {
     display: flex;
     justify-content: space-between;
+    margin: 13px 245px 51px 122px;
 }
 
 .quote {
@@ -69,12 +97,13 @@
 
 .secondline-top {
     display: flex;
+    justify-content: space-between;
+    margin: 156px 127px 100px 121px;
 }
 
 .secondline-topleft {
     width: 662px;
     line-height: 36px;
-    margin: 0 0 70px 0;
 }
 
 .secondline-title {
@@ -97,6 +126,7 @@
     display: flex;
     font-family: 'Roboto', serif;
     align-items: center;
+    margin: 0 317px 162px 121px;
 }
 
 .thirdline-right {
@@ -121,6 +151,10 @@
     line-height: 130%;
 }
 
+.fourthline {
+    margin: 0 344px 116px 121px;
+}
+
 .format {
     font-family: Roboto Slab;
     font-style: normal;
@@ -131,6 +165,8 @@
 
 .fourthline-bottom {
     display: flex;
+    justify-content: space-between;
+    margin: 89px 0 0;
 }
 
 .fourth-title {
@@ -148,4 +184,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 130%;
+}
+
+.vebinars {
+    margin: 0 122px 0 0;
+}
+
+.access {
+    margin: 0 113px 0 0;
 }
