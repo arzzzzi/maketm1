@@ -1,208 +1,332 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
-body,
-html {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-
-.outer {
-    width: 100%;
-}
-
-.inner {
-    width: 100%;
-    max-width: calc(1440px - 240px);
-    margin: 0 auto;
-    padding: 0 120px 0g;
-}
-
-#cover {
-    margin: 20px 0 0 0;
-    width: 100%;
-}
-
-.header-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 115%;
-}
-
-.courseinfo {
-    display: flex;
-    justify-content: start;
-    padding: 90px 0 0 0;
-}
-
-.courseinfo-block {
-    margin: 0 46px 4px 0;
-    display: flex;
-}
-
-.firstline-title {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 81px;
-    margin: 0 140px 5px 0;
-}
-
-.firstline-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 150%;
-    margin: 0 350px 161px 0;
-}
-
-.firstline {
-    display: flex;
-    justify-content: space-between;
-}
-
-.quote {
-    background-color: #1E4681;
-    border-radius: 5px;
-    transform: rotate(-4deg);
-    padding: 21px 29px 0;
-    width: 500px;
-    height: 235px;
-    margin: 51px auto 0;
-}
-
-.quote-text {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 130%;
-    color: white;
-    padding: 0 0 15px;
-}
-
-.quote-author {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 130%;
-    text-align: right;
-    color: white;
-}
-
-#about-course {
-    padding: 155px 0 0 0;
-    width: 100%;
-}
-
-.secondline-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.secondline-topleft {
-    width: 662px;
-    line-height: 36px;
-}
-
-.secondline-title {
-    font-weight: 700;
-    font-size: 55px;
-    font-family: 'Roboto Slab', serif;
-    margin: 0 0 18px 0;
-    line-height: 56px;
-    Width: 365px;
-    Height: 93px;
-}
-
-.secondline-text {
-    font-size: 24px;
-    line-height: 36px;
-    font-family: 'Roboto', serif;
-}
-
-.thirdline {
-    display: flex;
-    font-family: 'Roboto', serif;
-    align-items: center;
-    margin: 94px 0 0 0;
-}
-
-.bottom {
-    margin: 0 95px 0 0;
-    max-width: 150px;
-}
-
-.thirdline-right {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    align-items: center;
-    margin: 0 0 0 132px;
-}
-
-.thirdline-right title {
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 130%;
-}
-
-.bottom-text {
-    font-size: 18px;
-    line-height: 130%;
-}
-
-#format {
-    padding: 162px 0 0 0;
-    width: 100%;
-}
-
-.format {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 56px;
-}
-
-.fourthline-bottom {
-    display: flex;
-    justify-content: space-between;
-    margin: 89px 0 0;
-}
-
-.fourth-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-    color: #1E4681;
-}
-
-.fourth-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 130%;
-}
-
-.vebinars {
-    margin: 0 122px 0 0;
-    width: 225px;
-}
-
-.access {
-    margin: 0 113px 0 0;
-    width: 270px;
-}
-
-.chatting {
-    width: 245px;
-}
+                @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+                body,
+                html {
+                    margin: 0;
+                    padding: 0;
+                    background-color: white;
+                }
+                
+                .outer {
+                    width: 100%;
+                }
+                
+                .inner {
+                    width: 100%;
+                    max-width: calc(1440px - 240px);
+                    margin: 0 auto;
+                    padding: 0 120px 0;
+                }
+                
+                #cover {
+                    margin: 20px 0 0 0;
+                    width: 100%;
+                }
+                
+                .header-text {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 115%;
+                }
+                
+                .courseinfo {
+                    display: flex;
+                    justify-content: start;
+                    padding: 90px 0 0 0;
+                }
+                
+                .courseinfo-block {
+                    margin: 0 46px 4px 0;
+                    display: flex;
+                }
+                
+                .firstline-title {
+                    font-family: Roboto Slab;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 80px;
+                    line-height: 81px;
+                    margin: 0 140px 5px 0;
+                }
+                
+                .firstline-text {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 150%;
+                    width: 415px;
+                }
+                
+                .firstline {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .quote {
+                    background-color: #1E4681;
+                    border-radius: 5px;
+                    transform: rotate(-4deg);
+                    padding: 21px 29px 0;
+                    width: 500px;
+                    height: 235px;
+                    margin: 51px auto 0;
+                }
+                
+                .quote-text {
+                    font-family: Roboto Slab;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 130%;
+                    color: white;
+                    padding: 0 0 15px;
+                }
+                
+                .quote-author {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 130%;
+                    text-align: right;
+                    color: white;
+                }
+                
+                #about-course {
+                    padding: 155px 0 0 0;
+                    width: 100%;
+                }
+                
+                .secondline-top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .secondline-topleft {
+                    width: 662px;
+                    line-height: 36px;
+                }
+                
+                .secondline-title {
+                    font-weight: 700;
+                    font-size: 55px;
+                    font-family: 'Roboto Slab', serif;
+                    margin: 0 0 18px 0;
+                    line-height: 56px;
+                    Width: 365px;
+                    Height: 93px;
+                }
+                
+                .secondline-text {
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-family: 'Roboto', serif;
+                }
+                
+                .thirdline {
+                    display: flex;
+                    font-family: 'Roboto', serif;
+                    align-items: center;
+                    margin: 94px 0 0 0;
+                }
+                
+                .bottom {
+                    margin: 0 95px 0 0;
+                    max-width: 150px;
+                }
+                
+                .thirdline-right {
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: left;
+                    align-items: center;
+                    margin: 0 0 0 132px;
+                }
+                
+                .thirdline-right title {
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 130%;
+                }
+                
+                .bottom-text {
+                    font-size: 18px;
+                    line-height: 130%;
+                    font-weight: 400;
+                }
+                
+                #format {
+                    padding: 162px 0 0 0;
+                    width: 100%;
+                }
+                
+                .format {
+                    font-family: Roboto Slab;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 55px;
+                    line-height: 56px;
+                }
+                
+                .fourthline-bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 89px 0 0;
+                }
+                
+                .fourth-title {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 130%;
+                    color: #1E4681;
+                }
+                
+                .fourth-text {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 130%;
+                }
+                
+                .vebinars {
+                    margin: 0 122px 0 0;
+                    width: 225px;
+                }
+                
+                .access {
+                    margin: 0 113px 0 0;
+                    width: 270px;
+                }
+                
+                .chatting {
+                    width: 245px;
+                }
+                
+                @media screen and (min-width: 834px) and (max-width: 1279px) {
+                    .inner {
+                        padding: 0 71px 0;
+                        max-width: calc(1279px - 142px);
+                        min-width: calc(834px - 142px);
+                        width: 100%;
+                    }
+                    .courseinfo {
+                        padding: 55px 0 0 0;
+                    }
+                    .courseinfo-block {
+                        margin: 0 18px 2px 0;
+                    }
+                    .header-text {
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                    .firstline-title {
+                        font-size: 46px;
+                        line-height: 47px;
+                        margin: 0 81px 3px 0;
+                    }
+                    .quote {
+                        border-radius: 3px;
+                        padding: 12px 17px 0;
+                        width: 280px;
+                        height: 115px;
+                        margin: 41px auto 0;
+                    }
+                    .quote-text {
+                        font-size: 14px;
+                        line-height: 18px;
+                        padding: 0 0 5px;
+                    }
+                    .quote-author {
+                        font-size: 12px;
+                        line-height: 16px;
+                        text-align: right;
+                    }
+                    #about-course {
+                        padding: 90px 0 0 0;
+                        width: 100%;
+                    }
+                    .secondline-topleft {
+                        width: 383px;
+                        line-height: 21px;
+                        margin: 0 110px 0 0;
+                    }
+                    .secondline-title {
+                        font-size: 32px;
+                        margin: 0 0 10px 0;
+                        line-height: 33px;
+                        Width: 210px;
+                        Height: 54px;
+                    }
+                    .secondline-text {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                    .thirdline {
+                        margin: 54px 0 0 0;
+                    }
+                    .bottom {
+                        margin: 0 45px 0 0;
+                        max-width: 90px;
+                    }
+                    .thirdline-right {
+                        margin: 0 0 0 75px;
+                    }
+                    .thirdline-right title {
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 19px;
+                    }
+                    .bottom-text {
+                        font-size: 11px;
+                        line-height: 14px;
+                        font-weight: 400;
+                    }
+                    #format {
+                        padding: 94px 0 0 0;
+                        width: 100%;
+                    }
+                    .format {
+                        font-size: 32px;
+                        line-height: 33px;
+                    }
+                    .fourthline-bottom {
+                        margin: 51px 0 0;
+                    }
+                    .fourth-title {
+                        font-size: 15px;
+                        line-height: 19px;
+                    }
+                    .fourth-text {
+                        font-size: 11px;
+                        line-height: 14px;
+                    }
+                    .vebinars {
+                        margin: 0 46px 0 0;
+                        width: 153px;
+                    }
+                    .access {
+                        margin: 0 50px 0 0;
+                        width: 172px;
+                    }
+                    .chatting {
+                        width: 142px;
+                    }
+                }
+                
+                @media screen and (min-width: 375px) and (max-width: 833px) {
+                    .inner {
+                        padding: 0 33px 0;
+                        max-width: calc(833px - 66px);
+                        min-width: calc(375px - 66px);
+                        width: 100%;
+                    }
+                    .courseinfo {
+                        padding: 44px 0 0 0;
+                    }
+                }
