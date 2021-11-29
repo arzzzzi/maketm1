@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 body,
 html {
     margin: 0;
@@ -6,15 +7,18 @@ html {
 }
 
 .outer {
-    width: 1440px;
+    width: 100%;
 }
 
 .inner {
+    width: 100%;
+    max-width: calc(1440px - 240px);
     margin: 0 auto;
+    padding: 20px 120px;
 }
 
-.desktop {
-    padding: 21px 810px 17px 121px;
+#cover {
+    width: 100%;
 }
 
 .header-text {
@@ -25,24 +29,15 @@ html {
     line-height: 115%;
 }
 
-.onlinecourse {
-    display: flex;
-    margin: 96px 46px 0 0;
-}
-
-.watches {
-    display: flex;
-    margin: 96px 46px 0 0;
-}
-
-.calendar {
-    display: flex;
-    margin: 96px 46px 0 0;
-}
-
 .courseinfo {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    padding: 90px 0 0 0;
+}
+
+.courseinfo-block {
+    margin: 0 46px 4px 0;
+    display: flex;
 }
 
 .firstline-title {
@@ -51,6 +46,7 @@ html {
     font-weight: bold;
     font-size: 80px;
     line-height: 81px;
+    margin: 0 140px 5px 0;
 }
 
 .firstline-text {
@@ -59,20 +55,22 @@ html {
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
+    margin: 0 350px 161px 0;
 }
 
 .firstline {
     display: flex;
     justify-content: space-between;
-    margin: 13px 245px 51px 122px;
 }
 
 .quote {
     background-color: #1E4681;
     border-radius: 5px;
     transform: rotate(-4deg);
-    margin: 71px 541px 157px 403px;
     padding: 21px 29px 0;
+    width: 500px;
+    height: 235px;
+    margin: 51px auto 0;
 }
 
 .quote-text {
@@ -95,10 +93,15 @@ html {
     color: white;
 }
 
+#about-course {
+    padding: 155px 0 0 0;
+    width: 100%;
+}
+
 .secondline-top {
     display: flex;
     justify-content: space-between;
-    margin: 156px 127px 100px 121px;
+    align-items: center;
 }
 
 .secondline-topleft {
@@ -126,33 +129,36 @@ html {
     display: flex;
     font-family: 'Roboto', serif;
     align-items: center;
-    margin: 0 317px 162px 121px;
+    margin: 94px 0 0 0;
+}
+
+.bottom {
+    margin: 0 95px 0 0;
+    max-width: 150px;
 }
 
 .thirdline-right {
     display: flex;
     justify-content: space-between;
     text-align: left;
+    align-items: center;
     margin: 0 0 0 132px;
 }
 
 .thirdline-right title {
     font-size: 25px;
     font-weight: 700;
-    width: 150px;
-    margin: 0;
     line-height: 130%;
 }
 
-.thirdline-right bottom {
+.bottom-text {
     font-size: 18px;
-    width: 150px;
-    margin: 0 95px 0 0;
     line-height: 130%;
 }
 
-.fourthline {
-    margin: 0 344px 116px 121px;
+#format {
+    padding: 162px 0 116px 0;
+    width: 100%;
 }
 
 .format {
