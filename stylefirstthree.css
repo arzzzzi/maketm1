@@ -7,11 +7,11 @@ html {
 }
 
 .outer {
+    max-width: 1440px;
     width: 100%;
 }
 
 .inner {
-    width: 100%;
     max-width: calc(1440px - 240px);
     margin: 0 auto;
     padding: 0 120px 0;
@@ -37,8 +37,9 @@ html {
 }
 
 .courseinfo-block {
-    margin: 0 46px 4px 0;
+    margin: 4px 46px 0 0;
     display: flex;
+    align-items: center;
 }
 
 .firstline-title {
@@ -69,8 +70,8 @@ html {
     border-radius: 5px;
     transform: rotate(-4deg);
     padding: 21px 29px 0;
-    width: 500px;
-    height: 235px;
+    width: 480px;
+    height: 200px;
     margin: 51px auto 0;
 }
 
@@ -106,7 +107,7 @@ html {
 }
 
 .secondline-topleft {
-    width: 662px;
+    width: 600px;
     line-height: 36px;
 }
 
@@ -146,7 +147,7 @@ html {
     margin: 0 0 0 132px;
 }
 
-.thirdline-right title {
+.third-title {
     font-size: 25px;
     font-weight: 700;
     line-height: 130%;
@@ -216,16 +217,20 @@ html {
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
     .inner {
-        padding: 0 71px 0;
+        padding: 0 71px;
         max-width: calc(1279px - 142px);
-        min-width: calc(834px - 142px);
-        width: 100%;
+        margin: 0;
     }
     .courseinfo {
         padding: 55px 0 0 0;
+        justify-content: start;
     }
     .courseinfo-block {
         margin: 0 18px 2px 0;
+    }
+    .sinc {
+        width: 64px;
+        height: 38px;
     }
     .calendar {
         width: 12px;
@@ -235,7 +240,7 @@ html {
         width: 12px;
         height: 12px;
     }
-    .watches {
+    .hours {
         width: 12px;
         height: 12px;
     }
@@ -263,17 +268,29 @@ html {
         font-size: 12px;
         line-height: 14px;
     }
+    .firstline {
+        display: flex;
+        justify-content: space-between;
+    }
     .firstline-title {
         font-size: 46px;
         line-height: 47px;
         margin: 0 81px 3px 0;
+        width: 360px;
+    }
+    .firstline-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        width: 264px;
     }
     .quote {
         border-radius: 3px;
         padding: 12px 17px 0;
         width: 280px;
         height: 115px;
-        margin: 41px auto 0;
     }
     .quote-text {
         font-size: 14px;
@@ -287,7 +304,9 @@ html {
     }
     #about-course {
         padding: 90px 0 0 0;
-        width: 100%;
+    }
+    .secondline-top {
+        justify-content: space-between;
     }
     .secondline-topleft {
         width: 383px;
@@ -315,7 +334,7 @@ html {
     .thirdline-right {
         margin: 0 0 0 75px;
     }
-    .thirdline-right title {
+    .third-title {
         font-size: 15px;
         font-weight: 700;
         line-height: 19px;
@@ -334,6 +353,8 @@ html {
     }
     .fourthline-bottom {
         margin: 51px 0 0;
+        display: flex;
+        justify-content: space-between;
     }
     .fourth-title {
         font-size: 15px;
@@ -357,7 +378,7 @@ html {
     .fencing {
         position: relative;
         top: 67px;
-        left: 500px;
+        left: 400px;
     }
 }
 
@@ -365,12 +386,14 @@ html {
     .inner {
         padding: 0 33px 0;
         max-width: calc(833px - 66px);
-        min-width: calc(375px - 66px);
-        width: 100%;
     }
     .header-text {
         font-size: 10px;
         line-height: 115%;
+    }
+    .sinc {
+        width: 52px;
+        height: 31px;
     }
     .calendar {
         width: 10px;
@@ -380,7 +403,7 @@ html {
         width: 10px;
         height: 10px;
     }
-    .watches {
+    .hours {
         width: 10px;
         height: 10px;
     }
@@ -391,14 +414,11 @@ html {
     .pointingman {
         width: 141px;
         height: 175px;
+        align-items: center;
     }
     .cameraman {
         width: 170px;
         height: 160px;
-    }
-    .officeman {
-        width: 108px;
-        height: 102px;
     }
     .fencing {
         width: 132px;
@@ -416,6 +436,7 @@ html {
     .firstline-title {
         font-size: 37px;
         line-height: 38px;
+        width: 292px;
     }
     .firstline-text {
         font-size: 10px;
@@ -431,7 +452,7 @@ html {
         padding: 9px 14px 0;
         width: 225px;
         height: 93px;
-        margin: 30px auto 0;
+        margin: 30px 70px 0 3px;
     }
     .quote-text {
         font-size: 11px;
@@ -445,12 +466,10 @@ html {
     }
     #about-course {
         padding: 67px 0 0 0;
-        width: 100%;
     }
     .secondline-top {
         display: block;
         justify-content: space-between;
-        align-items: center;
     }
     .secondline-topleft {
         width: 308px;
@@ -458,7 +477,6 @@ html {
     }
     .secondline-title {
         font-size: 26px;
-        margin: 0 auto;
         line-height: 27px;
         Width: 170px;
         Height: 43px;
@@ -468,29 +486,33 @@ html {
         line-height: 18px;
     }
     .thirdline {
+        position: relative;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         margin: 45px 0 0 0;
     }
     .officeman {
-        position: relative;
-        top: 84px;
-        left: 224px;
+        position: absolute;
+        width: 108px;
+        height: 102px;
+        bottom: 0;
+        right: 200px;
     }
     .bottom {
-        margin: 0 95px 0 0;
-        max-width: 150px;
+        margin: 0 33px 0 0;
+        width: 86px;
     }
     .thirdline-right {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: start;
         text-align: left;
         align-items: center;
         margin: 0 0 16px 0;
     }
-    .thirdline-right title {
+    .third-title {
         font-size: 12px;
+        line-height: 130%;
     }
     .bottom-text {
         font-size: 10px;
@@ -502,10 +524,11 @@ html {
     }
     .format {
         font-size: 26px;
-        line-height: 27px;
+        line-height: 130%;
         margin: 0 0 16px 0;
     }
     .fourthline-bottom {
+        margin: 16px 0 0 0;
         display: block;
     }
     .fourth-title {
@@ -526,5 +549,10 @@ html {
     }
     .chatting {
         width: 170px;
+    }
+    .fencing {
+        position: relative;
+        top: -50px;
+        left: 150px;
     }
 }
