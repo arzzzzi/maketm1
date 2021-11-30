@@ -12,15 +12,14 @@ html {
 }
 
 .inner {
-    width: 100%;
-    max-width: calc(1440px - 240px);
+    width: calc(100% - 240px);
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 120px 0;
 }
 
 #cover {
     margin: 20px 0 0 0;
-    width: 100%;
 }
 
 .header-text {
@@ -98,7 +97,6 @@ html {
 
 #about-course {
     margin: 155px 0 0 0;
-    width: 100%;
 }
 
 .secondline-top {
@@ -162,7 +160,6 @@ html {
 
 #format {
     margin: 162px 0 0 0;
-    width: 100%;
 }
 
 .format {
@@ -224,14 +221,13 @@ html {
     .inner {
         padding: 0 71px;
         width: calc(100% - 142px);
+        max-width: 1279px;
     }
     #cover {
-        margin: 22px 0 0 0;
-        width: 100%;
+        margin: 22px 0 0 0
     }
     #about-course {
         margin: 90 px 0 0 0;
-        width: 100%;
     }
     .courseinfo {
         padding: 55px 0 0 0;
@@ -348,7 +344,6 @@ html {
     }
     #format {
         margin: 94px 0 0 0;
-        width: 100%;
     }
     .format {
         font-size: 32px;
@@ -431,7 +426,6 @@ html {
     }
     #cover {
         margin: 30px 0 0 0;
-        width: 100%;
     }
     .courseinfo {
         display: flex;
@@ -477,7 +471,6 @@ html {
         text-align: right;
     }
     #about-course {
-        width: 100%;
         margin: 67px 0 0 0;
     }
     .secondline-top {
@@ -539,7 +532,6 @@ html {
         font-size: 10px;
     }
     #format {
-        width: 100%;
         margin: 43px 0 0 0;
     }
     .format {
