@@ -96,7 +96,7 @@ html {
 }
 
 #about-course {
-    padding: 155px 0 0 0;
+    margin: 155px 0 0 0;
     width: 100%;
 }
 
@@ -160,7 +160,7 @@ html {
 }
 
 #format {
-    padding: 162px 0 0 0;
+    margin: 162px 0 0 0;
     width: 100%;
 }
 
@@ -195,6 +195,10 @@ html {
     line-height: 130%;
 }
 
+.thirdline-mobile {
+    display: none;
+}
+
 .vebinars {
     margin: 0 122px 0 0;
     width: 225px;
@@ -218,8 +222,15 @@ html {
 @media screen and (min-width: 834px) and (max-width: 1279px) {
     .inner {
         padding: 0 71px;
-        max-width: calc(1279px - 142px);
-        margin: 0;
+        width: calc(100% - 142px);
+    }
+    #cover {
+        margin: 22px 0 0 0;
+        width: 100%;
+    }
+    #about-course {
+        margin: 90 px 0 0 0;
+        width: 100%;
     }
     .courseinfo {
         padding: 55px 0 0 0;
@@ -302,10 +313,6 @@ html {
         line-height: 16px;
         text-align: right;
     }
-    #about-course {
-        padding: 90px 0 0 0;
-        width: 100%;
-    }
     .secondline-top {
         justify-content: space-between;
     }
@@ -344,8 +351,11 @@ html {
         font-size: 11px;
         line-height: 14px;
     }
+    .thirdline-mobile {
+        display: none;
+    }
     #format {
-        padding: 94px 0 0 0;
+        margin: 94px 0 0 0;
         width: 100%;
     }
     .format {
@@ -383,189 +393,11 @@ html {
     }
 }
 
-
-/* @media screen and (min-width: 375px) and (max-width: 833px) {
-    .inner {
-        padding: 0 33px 0;
-        max-width: calc(833px - 66px);
-    }
-    .header-text {
-        font-size: 10px;
-        line-height: 115%;
-    }
-    .sinc {
-        width: 52px;
-        height: 31px;
-    }
-    .calendar {
-        width: 10px;
-        height: 10px;
-    }
-    .globe {
-        width: 10px;
-        height: 10px;
-    }
-    .hours {
-        width: 10px;
-        height: 10px;
-    }
-    .sinc {
-        width: 52px;
-        height: 31px;
-    }
-    .pointingman {
-        width: 141px;
-        height: 175px;
-        align-items: center;
-    }
-    .cameraman {
-        width: 170px;
-        height: 160px;
-    }
-    .fencing {
-        width: 132px;
-        height: 78px;
-    }
-    .courseinfo {
-        display: flex;
-        justify-content: start;
-        padding: 44px 0 0 0;
-    }
-    .courseinfo-block {
-        margin: 0 11px 2px 0;
-        display: flex;
-    }
-    .firstline-title {
-        font-size: 37px;
-        line-height: 38px;
-        width: 292px;
-    }
-    .firstline-text {
-        font-size: 10px;
-        line-height: 150%;
-        width: 212px;
-    }
-    .firstline {
-        display: block;
-        justify-content: space-between;
-    }
-    .quote {
-        border-radius: 2px;
-        padding: 9px 14px 0;
-        width: 225px;
-        height: 93px;
-        margin: 30px 70px 0 3px;
-    }
-    .quote-text {
-        font-size: 11px;
-        line-height: 130%;
-        padding: 0 0 3px;
-    }
-    .quote-author {
-        font-size: 10px;
-        line-height: 130%;
-        text-align: right;
-    }
-    #about-course {
-        padding: 67px 0 0 0;
-        width: 100%;
-    }
-    .secondline-top {
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .secondline-topleft {
-        width: 308px;
-        line-height: 18px;
-    }
-    .secondline-title {
-        font-size: 26px;
-        line-height: 27px;
-        Width: 170px;
-        Height: 43px;
-    }
-    .secondline-text {
-        font-size: 12px;
-        line-height: 18px;
-    }
-    .thirdline {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        margin: 45px 0 0 0;
-    }
-    .officeman {
-        position: absolute;
-        width: 108px;
-        height: 102px;
-        bottom: 0;
-        right: 200px;
-    }
-    .bottom {
-        margin: 0 33px 0 0;
-        width: 50%;
-    }
-    .thirdline-right {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        text-align: left;
-        align-items: center;
-        margin: 0 0 16px 0;
-    }
-    .third-title {
-        font-size: 12px;
-        line-height: 130%;
-    }
-    .bottom-text {
-        font-size: 10px;
-        line-height: 130%;
-    }
-    #format {
-        padding: 43px 0 0 0;
-        width: 100%;
-    }
-    .format {
-        font-size: 26px;
-        line-height: 130%;
-        margin: 0 0 16px 0;
-    }
-    .fourthline-bottom {
-        margin: 16px 0 0 0;
-        display: block;
-    }
-    .fourth-title {
-        font-size: 12px;
-        line-height: 130%;
-    }
-    .fourth-text {
-        font-size: 10px;
-        line-height: 130%;
-    }
-    .vebinars {
-        margin: 10px 0 0 0;
-        width: 180px;
-    }
-    .access {
-        margin: 10px 0 0 0;
-        width: 170px;
-    }
-    .chatting {
-        width: 170px;
-    }
-    .fencing {
-        position: relative;
-        top: -50px;
-        left: 150px;
-    }
-} */
-
 @media screen and (min-width: 375px) and (max-width: 833px) {
     .inner {
-        margin: auto;
         padding: 0 33px 0;
-        max-width: calc(833px - 66px);
+        width: 100%;
+        max-width: calc(375px - 66px);
     }
     .header-text {
         font-size: 10px;
@@ -574,6 +406,9 @@ html {
     .sinc {
         width: 52px;
         height: 31px;
+        margin: auto;
+        display: block;
+        justify-content: flex-start;
     }
     .calendar {
         width: 10px;
@@ -587,30 +422,34 @@ html {
         width: 10px;
         height: 10px;
     }
-    .sinc {
+    .sinc-photo {
         width: 52px;
         height: 31px;
     }
     .pointingman {
         width: 141px;
         height: 175px;
-        justify-self: center;
+        margin: 0 0 0 170px;
     }
     .cameraman {
         width: 170px;
         height: 160px;
+        margin: 16px 67px 0;
     }
     .fencing {
         width: 132px;
         height: 78px;
     }
     #cover {
-        padding: 30px 0 0 0;
+        margin: 30px 0 0 0;
+        width: 100%;
     }
     .courseinfo {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         padding: 44px 0 0 0;
+        margin: auto;
+        width: 310px;
     }
     .courseinfo-block {
         margin: 0 11px 2px 0;
@@ -620,7 +459,6 @@ html {
         font-size: 37px;
         line-height: 38px;
         width: 292px;
-        margin: 0 200px 0 0;
     }
     .firstline-text {
         font-size: 10px;
@@ -629,14 +467,18 @@ html {
     }
     .firstline {
         display: block;
-        justify-content: space-between;
+        justify-content: center;
+        width: 310px;
+        margin: auto;
     }
     .quote {
         border-radius: 2px;
         padding: 9px 14px 0;
         width: 225px;
         height: 93px;
-        margin: 30px 70px 0 3px;
+        margin: 40px 90px 0 15px;
+        display: block;
+        justify-content: center;
     }
     .quote-text {
         font-size: 11px;
@@ -649,17 +491,21 @@ html {
         text-align: right;
     }
     #about-course {
-        padding: 67px 0 0 0;
         width: 100%;
-        margin: 0 auto;
+        margin: 67px 0 0 0;
     }
     .secondline-top {
         display: block;
         justify-content: space-between;
         align-items: center;
+        width: 310px;
+        margin: auto;
+    }
+    .secondline-topright {
+        margin: auto;
     }
     .secondline-topleft {
-        width: 308px;
+        width: 310px;
         line-height: 18px;
     }
     .secondline-title {
@@ -673,29 +519,33 @@ html {
         line-height: 18px;
     }
     .thirdline {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
+        display: none;
+    }
+    .thirdline-mobile {
+        display: block;
         margin: 45px 0 0 0;
+        position: relative;
+        height: 170px;
     }
     .officeman {
-        position: absolute;
         width: 108px;
         height: 102px;
-        bottom: -40px;
-        right: 200px;
+        position: relative;
+        top: -80px;
+        right: -195px;
     }
     .bottom {
+        width: 30%;
         margin: 0 33px 0 0;
-        width: 50%;
     }
     .thirdline-right {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: start;
         text-align: left;
-        align-items: center;
-        margin: 0 0 16px 0;
+        align-items: flex-start;
+        margin: 0 auto 16px;
+        width: 310px;
     }
     .third-title {
         font-size: 12px;
@@ -706,9 +556,8 @@ html {
         line-height: 130%;
     }
     #format {
-        padding: 43px 0 0 0;
         width: 100%;
-        margin: 0 auto;
+        margin: 43px 0 0 0;
     }
     .format {
         font-size: 26px;
@@ -726,6 +575,10 @@ html {
     .fourth-text {
         font-size: 10px;
         line-height: 130%;
+    }
+    .fourthline {
+        width: 310px;
+        margin: auto;
     }
     .vebinars {
         margin: 10px 0 0 0;
