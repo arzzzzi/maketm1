@@ -12,6 +12,7 @@ html {
 }
 
 .inner {
+    width: 100%;
     max-width: calc(1440px - 240px);
     margin: 0 auto;
     padding: 0 120px 0;
@@ -123,7 +124,7 @@ html {
 
 .secondline-text {
     font-size: 24px;
-    line-height: 36px;
+    line-height: 150%;
     font-family: 'Roboto', serif;
 }
 
@@ -277,7 +278,6 @@ html {
     }
     .header-text {
         font-size: 12px;
-        line-height: 14px;
     }
     .firstline {
         display: flex;
@@ -290,11 +290,7 @@ html {
         width: 360px;
     }
     .firstline-text {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
-        line-height: 150%;
         width: 264px;
     }
     .quote {
@@ -310,7 +306,6 @@ html {
     }
     .quote-author {
         font-size: 12px;
-        line-height: 16px;
         text-align: right;
     }
     .secondline-top {
@@ -330,7 +325,6 @@ html {
     }
     .secondline-text {
         font-size: 14px;
-        line-height: 21px;
     }
     .thirdline {
         margin: 54px 0 0 0;
@@ -345,11 +339,9 @@ html {
     .third-title {
         font-size: 15px;
         font-weight: 700;
-        line-height: 19px;
     }
     .bottom-text {
         font-size: 11px;
-        line-height: 14px;
     }
     .thirdline-mobile {
         display: none;
@@ -369,11 +361,9 @@ html {
     }
     .fourth-title {
         font-size: 15px;
-        line-height: 19px;
     }
     .fourth-text {
         font-size: 11px;
-        line-height: 14px;
     }
     .vebinars {
         margin: 0 46px 0 0;
@@ -401,7 +391,6 @@ html {
     }
     .header-text {
         font-size: 10px;
-        line-height: 115%;
     }
     .sinc {
         width: 52px;
@@ -462,7 +451,6 @@ html {
     }
     .firstline-text {
         font-size: 10px;
-        line-height: 150%;
         width: 212px;
     }
     .firstline {
@@ -482,12 +470,10 @@ html {
     }
     .quote-text {
         font-size: 11px;
-        line-height: 130%;
         padding: 0 0 3px;
     }
     .quote-author {
         font-size: 10px;
-        line-height: 130%;
         text-align: right;
     }
     #about-course {
@@ -516,7 +502,6 @@ html {
     }
     .secondline-text {
         font-size: 12px;
-        line-height: 18px;
     }
     .thirdline {
         display: none;
@@ -549,11 +534,9 @@ html {
     }
     .third-title {
         font-size: 12px;
-        line-height: 130%;
     }
     .bottom-text {
         font-size: 10px;
-        line-height: 130%;
     }
     #format {
         width: 100%;
@@ -570,22 +553,20 @@ html {
     }
     .fourth-title {
         font-size: 12px;
-        line-height: 130%;
     }
     .fourth-text {
         font-size: 10px;
-        line-height: 130%;
     }
     .fourthline {
         width: 310px;
         margin: auto;
     }
     .vebinars {
-        margin: 10px 0 0 0;
+        margin: 19px 0 0 0;
         width: 180px;
     }
     .access {
-        margin: 10px 0 0 0;
+        margin: 19px 0 0 0;
         width: 170px;
     }
     .chatting {
@@ -594,6 +575,6 @@ html {
     .fencing {
         position: relative;
         top: -50px;
-        left: 150px;
+        left: 170px;
     }
 }
