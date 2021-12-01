@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     width: 100%;
 }
+
 .outer {
     max-width: 1440px;
     width: 100%;
@@ -15,6 +17,7 @@ body {
     border: 1px solid black;
     position: relative;
 }
+
 .header {
     font-family: Roboto Slab;
     font-style: normal;
@@ -28,14 +31,17 @@ body {
     align-items: center;
     margin-bottom: 132px;
 }
-.header-text {
+
+.alexey-header-text {
     margin: 0 0 0 8.4%;
 }
+
 .line {
     background-color: black;
     height: 14px;
     width: 43.8%;
 }
+
 .content {
     display: flex;
     flex-direction: row;
@@ -43,6 +49,7 @@ body {
     margin: 0 0 0 5.8%;
     width: 100%
 }
+
 .block {
     width: 27.7%;
     height: 22.7%;
@@ -54,9 +61,11 @@ body {
     font-style: normal;
     margin: 0 37px 45px 0;
 }
+
 .block-picture {
     width: 100%;
 }
+
 .block-text-header {
     font-weight: bold;
     font-size: 30px;
@@ -65,11 +74,13 @@ body {
     height: 63px;
     margin: 16px 14px 0 20px;
 }
+
 .block-text-footer {
     width: 90%;
     height: 63px;
     margin: 0 14px 23px 20px;
 }
+
 .block-text-footer li {
     font-weight: normal;
     font-size: 25px;
@@ -77,6 +88,7 @@ body {
     list-style-type: none;
     padding: 0px 0;
 }
+
 .last-img {
     width: 17.57%;
     height: 14%;

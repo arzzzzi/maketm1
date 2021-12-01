@@ -381,8 +381,8 @@ html {
 @media screen and (min-width: 375px) and (max-width: 833px) {
     .inner {
         padding: 0 33px 0;
-        max-width: 833px;
-        width: calc(100% - 66px);
+        width: 100%;
+        max-width: calc(375px - 66px);
     }
     .header-text {
         font-size: 10px;
