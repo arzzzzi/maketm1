@@ -12,7 +12,6 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    border: 1px solid black;
 }
 .inner {
     max-width: 1440px;
@@ -34,7 +33,7 @@ body {
     justify-content: flex-start;
     margin-bottom: 140px;
 }
-.header-text {
+.alexey-header-text {
     margin: 0 0 0 50px;
 }
 .line {
@@ -110,7 +109,7 @@ body {
         font-size: 32px;
         margin-bottom: 81px;
     }
-    .header-text {
+    .alexey-header-text {
         margin: 0 0 0 29px;
     }
     .line {
@@ -171,7 +170,7 @@ body {
         line-height: 101.38%;
         margin-bottom: 40px;
     }
-    .header-text {
+    .alexey-header-text {
         margin: 0 0 0 0px;
     }    
     .line {
