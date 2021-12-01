@@ -65,6 +65,7 @@ article {
     .dina-text {
         font-size: 12px;
         margin-bottom: 25px;
+        width: 100%;
     }
     .cont {
         flex-direction: column;
