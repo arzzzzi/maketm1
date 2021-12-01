@@ -1,12 +1,14 @@
 .inner {
     width: 100%;
-    padding: 0 121px;
-    max-width: calc(1440px - 121px * 2);
+    padding: 0 120px;
+    max-width: calc(1440px - 120px * 2);
+    margin: 0 auto;
 }
 
 article {
     width: 100%;
 }
+
 .aaa {
     font-family: "Roboto Slab";
     font-weight: bold;
@@ -14,76 +16,71 @@ article {
     line-height: 100%;
     margin-bottom: 35px;
 }
+
 .cont {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.text {
+
+.dina-text {
     font-family: Roboto;
     font-style: normal;
     font-size: 24px;
     line-height: 150%;
     padding: 0;
     margin: 0 0 0 23px;
-    
-}
-.logo {
-    width: 312px;
-    height: 180px;
-    padding: 200px 177px 241px 10px;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    margin: 0 25px;
-    margin-bottom: 18px;
+    width: 662px;
 }
 
-@media screen and (max-width: 834px) {
+.dina-logo {
+    width: 312px;
+    height: 180px;
+}
+
+@media screen and (max-width: 1279px) {
     .inner {
-        max-width: calc(834px - 70,66px * 2);
+        max-width: 834px;
+        padding: 0 71px 0;
+        width: calc(100% - 71px * 2)
     }
-    .text {
+    .dina-text {
         font-size: 14px;
+        width: 380px;
     }
     .aaa {
         font-size: 32px;
     }
-    .logo {
-        width: 180,7px;
-        height: 104,25px;
+    .dina-logo {
+        width: 180px;
+        height: 104px;
     }
 }
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 833px) {
     .inner {
-        max-width: calc(375px - 36px * 2);
-   }
-   .text {
-       font-size: 12px;
-       margin-bottom: 25px;
-   }
-   .cont{
-       flex-direction: column;
-       margin-bottom: 8px;
-   }
-   .aaa {
-       font-size: 26px;
-   }
-   .logo {
-       width: 160px;
-       height: 88,07px;
-       justify-content: center;
-       display: flex;
-       position: relative;
-       margin: 0px 25px;
-       padding: 1px 20px 0 39px;
-       margin-bottom: 6px;
-   }
-
+        max-width: calc(375px - 33px * 2);
+        padding: 0 33px 0;
+    }
+    .dina-text {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .cont {
+        flex-direction: column;
+        margin-bottom: 8px;
+    }
+    .aaa {
+        font-size: 26px;
+    }
+    .dina-logo {
+        width: 160px;
+        height: 88px;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        margin: 0px 25px;
+        padding: 1px 20px 0 39px;
+        margin-bottom: 6px;
+    }
 }
-
-
-
-    
-
-
-
-
