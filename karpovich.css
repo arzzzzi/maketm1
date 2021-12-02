@@ -54,6 +54,7 @@
   font-weight: 700;
 }
 .speciality{
+  display: none;
   font-family: 'Roboto', serif;
   font-size: 18px;
   line-height: 23,4px;
@@ -121,13 +122,6 @@
   width: 180px;
   height: 166px;
 }
-.speciality{
-  font-family: 'Roboto', serif;
-  font-size: 18px;
-  line-height: 23,4px;
-  font-weight: 400;
-  padding-top: 13px;
-}
 .icon_auto{
   background: #FFFFFF;
   box-shadow: 1px 1px 8px #5784C8;
@@ -168,6 +162,9 @@
   border-radius: 70px;
   margin-top: 58px;
   margin-left: 10px;
+}
+.icon_auto_two:hover .speciality{
+  display : block;
 }
 @media screen and (max-width:1279px){
   .inner{
@@ -260,8 +257,7 @@
     height: 219px;
     box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
     border-radius: 17.375px;
-    margin: 0px 0px 26px 100px;
-    padding-bottom: 13px;
+    margin: 20px 0px 26px 100px;
   }
   .autors_rightbottom p{
     font-size: 10px;
