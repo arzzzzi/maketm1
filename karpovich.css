@@ -8,7 +8,6 @@
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  border: 1px solid red;
 }
 .inner{
   margin: 0 auto;
@@ -33,6 +32,7 @@
 .autors_lefttop{
   display: flex;
   flex-direction: row;
+  padding-top: 60px;
 }
 .autors_left{
   padding-top: 46px;
@@ -52,8 +52,9 @@
   font-size: 30px;
   line-height: 30,42px;
   font-weight: 700;
+  padding-right: 20px;
 }
-.speciality{
+.speciality, .speciality_two, .speciality_three{
   display: none;
   font-family: 'Roboto', serif;
   font-size: 18px;
@@ -163,13 +164,42 @@
   margin-top: 58px;
   margin-left: 10px;
 }
-.icon_auto_two:hover .speciality{
+.nav:hover .speciality_two{
   display : block;
+}
+.nav{
+  position: relative;
+}
+.nav .speciality_two{
+  position: absolute;
+  right: 1px;
+  width: 330px;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  line-height: 23,4px;
+  font-weight: 400;
+  padding-top: 13px;
+}
+.nav:hover .speciality_three{
+  display : block;
+}
+.nav .speciality_three{
+  position: absolute;
+  right: 1px;
+  width: 320px;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  line-height: 23,4px;
+  font-weight: 400;
+  padding-top: 13px;
 }
 @media screen and (max-width:1279px){
   .inner{
     max-width: 1279px;
     margin: 0 auto;
+  }
+  .autors_lefttop{
+    margin-bottom: 40px ;
   }
   .wrapper_autors h2{
     font-size: 32px;
@@ -185,17 +215,12 @@
     padding-top: 26px;
   }
   .information_kyznetsov{
-    padding-left: 40px;
-    padding-top: 76px;
+    padding-left: 50px;
   }
   .autor_speciality{
     font-size: 17px;
     line-height: 17,24px;
     width: 180px;
-  }
-  .speciality{
-    font-size: 10px;
-    line-height: 13px;
   }
   .icon_auto{
     width: 16px;
@@ -207,7 +232,6 @@
     height: 16px;
     position: absolute;
     bottom: 60px;
-    left: 300px;
   }
   .autors_leftbottom{
     width: 231px;
@@ -257,12 +281,15 @@
     height: 219px;
     box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
     border-radius: 17.375px;
-    margin: 20px 0px 26px 100px;
+    margin: 20px 0px 26px 90px;
   }
   .autors_rightbottom p{
     font-size: 10px;
     line-height: 13px;
     padding: 13px 14px;
+  }
+  .nav{
+    display: none;
   }
   @media screen and (max-width:833px){
     .wrapper_autors{
@@ -291,7 +318,7 @@
       font-size: 26px;
       line-height: 26px;
       font-weight: 700;
-      padding-top: 74px;
+      padding-top: 44px;
       padding-left: 35px;
       width: 200px;
     }
@@ -369,6 +396,7 @@
       font-weight: 700;
     }
     .speciality{
+      display: block;
       font-family: 'Roboto', serif;
       font-size: 10px;
       line-height: 13px;
@@ -382,8 +410,9 @@
       width: 234px;
       height: 144px;
       position: relative;
-      top: 90px;
+      top: 60px;
       box-shadow: none;
+      left: 15px;
     }
     .autors_rightbottom p{
       font-family: 'Roboto', serif;
@@ -394,7 +423,6 @@
     .icon_auto_two{
      display: none;
     }
-
   }
 }
 
