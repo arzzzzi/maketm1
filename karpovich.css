@@ -204,7 +204,7 @@
     margin: 0 auto;
   }
   .autors_lefttop{
-    margin-bottom: 40px ;
+    padding: 0;
   }
   .wrapper_autors h2{
     font-size: 32px;
@@ -217,12 +217,13 @@
     width: 109px;
     height: 103px;
     padding-left: 40px;
-    padding-top: 26px;
+    padding-top: 12px;
   }
   .information_kyznetsov{
     padding-left: 50px;
   }
   .autor_speciality{
+    padding: 0;
     font-size: 17px;
     line-height: 17,24px;
     width: 180px;
@@ -230,7 +231,7 @@
   .icon_auto{
     width: 16px;
     height: 16px;
-    margin-top: 78px;
+    margin-top: 58px;
   }
   .icon_auto_two{
     width: 16px;
@@ -266,11 +267,12 @@
   .autors_photo_right,.autors_photo_right img{
     width: 104px;
     height: 96px;
-    padding-left: 20px;
   }
   .information_kyznetsov_right{
     padding-left: 18px;
     padding-top: 20px;
+    height:20px;
+
   }
   .autor_speciality_right{
     font-size: 17px;
@@ -286,16 +288,37 @@
     height: 219px;
     box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
     border-radius: 17.375px;
-    margin: 20px 0px 26px 90px;
+    margin: 20px 0px 26px 115px;
   }
   .autors_rightbottom p{
     font-size: 10px;
     line-height: 13px;
     padding: 13px 14px;
   }
-  .nav{
-    display: none;
+  .nav .speciality_two{
+    width: 200px;
+    font-family: 'Roboto', serif;
+    font-size: 10px;
+    line-height: 13px;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin: 0;
   }
+  .nav{
+    position: relative;
+  }
+  .autors_righttop .speciality_three{
+    font-family: 'Roboto', serif;
+    font-size: 10px;
+    line-height: 13px;
+    line-height: 13px;
+    top: 33px;
+    width: 200px;
+    position: absolute;
+    left: -155px;
+
+  }
+ 
   @media screen and (max-width:833px){
     .wrapper_autors{
       display: none;
@@ -308,6 +331,9 @@
     .inner{
       margin: 0 auto;
       max-width: 833px;
+    }
+    .speciality_three{
+      display: none;
     }
     .man{
       display: none;
@@ -380,6 +406,8 @@
       flex-direction: row;
       position: relative;
       bottom: 220px;
+      left: 14px;
+      width: 100%;
       }
     .autors_photo_right img{
       width: 88px;
@@ -390,7 +418,6 @@
     .information_kyznetsov_right{
       padding: 0;
       padding-top: 14px;
-
     }
     .autor_speciality_right{
       font-family: 'Roboto Slab', serif;
@@ -415,7 +442,7 @@
       position: relative;
       top: 60px;
       box-shadow: none;
-      left: 20px;
+      right: 12px;
     }
     .autors_rightbottom p{
       font-family: 'Roboto', serif;
