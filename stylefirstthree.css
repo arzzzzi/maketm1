@@ -227,7 +227,7 @@ html {
         margin: 22px 0 0 0
     }
     #about-course {
-        margin: 90 px 0 0 0;
+        margin: 90px 0 0 0;
     }
     .courseinfo {
         padding: 55px 0 0 0;
@@ -510,11 +510,11 @@ html {
         height: 102px;
         position: relative;
         top: -80px;
-        right: -195px;
+        right: -165px;
     }
     .bottom {
         width: 30%;
-        margin: 0 33px 0 0;
+        margin: 0 33px 22px 0;
     }
     .thirdline-right {
         display: flex;
