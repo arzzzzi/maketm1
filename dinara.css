@@ -1,7 +1,7 @@
-.inner {
-    width: 100%;
+.inner-dinara {
+    width: calc(100% - 240px);
     padding: 0 120px;
-    max-width: calc(1440px - 120px * 2);
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -39,7 +39,7 @@ article {
 }
 
 @media screen and (max-width: 1279px) {
-    .inner {
+    .inner-dinara {
         max-width: 834px;
         padding: 0 71px 0;
         width: calc(100% - 71px * 2)
@@ -58,7 +58,7 @@ article {
 }
 
 @media screen and (max-width: 833px) {
-    .inner {
+    .inner-dinara {
         max-width: calc(375px - 33px * 2);
         padding: 0 33px 0;
     }

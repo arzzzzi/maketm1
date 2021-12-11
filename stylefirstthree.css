@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
-body,
-html {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
+
 
 .outer {
     max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .inner {
