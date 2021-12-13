@@ -1,26 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    width: 100%;
-}
-
-.outer {
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-}
 
 #course-program {
     padding: 230px 0 0 0;
 }
 
-.inner {
+.inner-alexey {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 71px;
@@ -42,20 +29,15 @@ body {
     margin-bottom: 140px;
 }
 
-.line {
-    position: absolute;
-    top: 24px;
-    left: 739px;
-    background-color: black;
-    height: 14px;
-    min-width: 48.5%;
-}
 
-.content {
+.alexey-header-text {
+    padding: 0 0 0 50px;
+}
+.alexey-content {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 13px;
+   
 }
 
 .content-mob {
@@ -118,10 +100,13 @@ body {
         max-width: 834px;
         width: 100%;
     }
-    .inner {
+    .alexey-header-text {
+        padding: 0 0 0 25px;
+    }
+    .inner-alexey {
         max-width: 834px;
-        padding: 0 41px;
-        width: calc(100% - 82px);
+        padding: 0 50px;
+        width: calc(100% - 100px);
     }
     .header {
         font-size: 32px;
@@ -135,7 +120,7 @@ body {
         height: 8px;
         min-width: 52.5%;
     }
-    .content {
+    .alexey-content {
         width: calc(100%-15px);
         margin: 0 7.7px 0 7.7px;
     }
@@ -173,7 +158,8 @@ body {
     .outer {
         max-width: 375px;
     }
-    .inner {
+
+    .inner-alexey {
         padding: 0 33px;
         width: 100%;
         width: calc(375px - 66px);
@@ -184,6 +170,9 @@ body {
         line-height: 101.38%;
         margin-bottom: 40px;
     }
+    .alexey-header-text {
+        padding: 0;
+    }
     .line {
         position: absolute;
         top: 13px;
@@ -191,7 +180,7 @@ body {
         height: 6.5px;
         min-width: 48.5%;
     }
-    .content {
+    .alexey-content {
         display: none;
     }
     .content-mob {
