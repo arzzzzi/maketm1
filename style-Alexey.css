@@ -29,14 +29,7 @@
     margin-bottom: 140px;
 }
 
-.line {
-    position: absolute;
-    top: 24px;
-    left: 739px;
-    background-color: black;
-    height: 14px;
-    min-width: 48.5%;
-}
+
 .alexey-header-text {
     padding: 0 0 0 50px;
 }
@@ -176,6 +169,9 @@
         font-size: 26px;
         line-height: 101.38%;
         margin-bottom: 40px;
+    }
+    .alexey-header-text {
+        padding: 0;
     }
     .line {
         position: absolute;

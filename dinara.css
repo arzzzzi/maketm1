@@ -42,7 +42,7 @@ article {
     .inner-dinara {
         max-width: 834px;
         padding: 0 71px 0;
-        width: calc(100% - 71px * 2)
+        width: calc(834px - 71px * 2)
     }
     .dina-text {
         font-size: 14px;
